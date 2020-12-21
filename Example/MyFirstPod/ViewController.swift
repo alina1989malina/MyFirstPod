@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import MyFirstPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let test = MyFirstPod.Test()
+        test.test()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
